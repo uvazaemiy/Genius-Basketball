@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Moonee/MoonSDK/Scenes/MoonSDKScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: eb7437b51dc4327478d31fc7f23ab273
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: d61608a198c1934458b2f7b5db3af00f
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 6b37b89a6f4571648bfc4729cde9c0a0
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: c680b77869021d346a167a22bb5bbe57
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: f1918f961531d76448444e7d3dc26de5
+  - enabled: 1
+    path: Assets/Scenes/Level 6.unity
+    guid: 9037b6d1883348c4e89c49924d15f146
+  - enabled: 1
+    path: Assets/Scenes/Level 7.unity
+    guid: e8af5315f0c2f6b44b9c4ff8c1e58956
+  - enabled: 1
+    path: Assets/Scenes/Level 8.unity
+    guid: fef6df34ffc9cb74d85f156512d12dba
+  - enabled: 1
+    path: Assets/Scenes/Level 9.unity
+    guid: a5c52aaa3aed06f4bb73a10fb65ce26c
+  - enabled: 1
+    path: Assets/Scenes/Level 10.unity
+    guid: 6b6a1143c9b91f14b867a101b64164c9
+  m_configObjects: {}

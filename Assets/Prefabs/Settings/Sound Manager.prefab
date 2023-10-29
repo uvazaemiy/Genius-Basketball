@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3396214985164524687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3396214985164524680}
+  - component: {fileID: 3396214985164524681}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3396214985164524680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3396214985164524687}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3396214985164524681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3396214985164524687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35f78c754af39a49896483f77770431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fxButton: {fileID: 0}
+  musicButton: {fileID: 0}
+  musicVolume: 0.3
+  fxVolume: 0.3
+  lowPitch: 0.8
+  highPitch: 1.2
+  musicTemplate: {fileID: 8300000, guid: 067e055ce6e23404188dea18c3ecb80c, type: 3}
+  winSounds:
+  - {fileID: 8300000, guid: 79e45d5b1afacc94abc766f5e02c1ec1, type: 3}
+  - {fileID: 8300000, guid: 0aa32548566e5a643a0f0f434b1c3c35, type: 3}
+  ballSound:
+  - {fileID: 8300000, guid: 90fad9d9a9fb60e4da6b9bacd1ec4653, type: 3}
+  - {fileID: 8300000, guid: 4fee7aa137fd80943b45483d5d0aad53, type: 3}
+  - {fileID: 8300000, guid: fa1313fabfe061a4ba4d62c34f44680e, type: 3}
+  - {fileID: 8300000, guid: 7144eab29346662499cff88dc9159f8a, type: 3}
+  - {fileID: 8300000, guid: 7e8eaecf3dbcfde4da9cf498a276c2a6, type: 3}
+  - {fileID: 8300000, guid: 005b64c715388c34a859cdd8a8450693, type: 3}
+  - {fileID: 8300000, guid: c3f97341ea2ded24883b2474c81762e3, type: 3}
+  netSound: {fileID: 8300000, guid: 6c691dba0936dd34398a6bd66187270f, type: 3}
+  bombSound: {fileID: 8300000, guid: 98f037be5fdfecc4eb7d5381e033f068, type: 3}
+  shotSound: {fileID: 8300000, guid: 2097747cc1fa72d4f84b89e1a9a00422, type: 3}
+  click1: {fileID: 8300000, guid: fd961005d0969824788e92f7af8baef7, type: 3}
+  click2: {fileID: 8300000, guid: 8b6f1e2cef2db994ba36cbc09528e899, type: 3}
